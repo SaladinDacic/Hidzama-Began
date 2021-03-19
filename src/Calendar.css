@@ -1,0 +1,87 @@
+.calendar-body {
+	width: 27vw;
+	min-width: 27rem;
+	height: 34vh;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	color: rgba(0, 0, 0, 0.678);
+	background-color: rgba(190, 197, 164, 0.418);
+	transition: all 0.2s 0s ease-in;
+	opacity: 0;
+	animation: 2s slidefadeCalendar 0.7s forwards;
+	box-shadow: inset 0px 0px 24px 8px rgba(0,0,0,0.35);
+}
+@media screen and (max-width: 1170px){
+    .calendar-body{
+		align-self: center;
+		width: 70vw;
+		height: 18rem;
+		margin: 20px 0;
+		/* 
+		justify-content: space-around; */
+	}
+	.calendar-body.show{
+		width: 70vw;
+	}
+	
+}
+@keyframes slidefadeCalendar {
+	100% {
+		opacity: 1;
+	}
+}
+.calendar-body.show{
+	min-width: 36vw;
+	height: 34vh;
+	background-color: rgba(195, 199, 179, 0.418);
+}
+
+.calendar-focus {
+	background-color: rgba(195, 199, 179, 0.418);
+	transform: scaleY(1.05);
+}
+
+.Calendar {
+	justify-content: center;
+	background-color: #5ba74c6b;
+	border-radius: 7px;
+	margin: 0 auto;
+	border: 2px solid #3d773398;
+	text-align: center;
+	color: white;
+	padding: 3px;
+	transform: translateY(-0.8rem);
+}
+.Calendar:hover {
+	background-color: #3d773398;
+}
+
+.classToDisableDay {
+	pointer-events: none;
+	color: gray !important;
+}
+.calendar-termini-container {
+	height: 100%;
+	display: flex;
+
+	justify-content: center;
+	align-items: center;
+	/* background-color: rgba(255, 99, 71, 0.185); */
+}
+
+.calendar-termini {
+	align-self: flex-end;
+	margin: 0 3px;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: rgba(0, 0, 0, 0.596);
+	letter-spacing: -0.7px;
+	transform: translateY(-35px);
+	display: flex;
+	margin-top: -3.5rem;
+}
+

@@ -1,0 +1,93 @@
+.landing-body {
+	display: flex;
+	width: 100vw;
+}
+
+.landing-content {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-left: 0rem;
+	margin-top: 0rem;
+	opacity: 0;
+	animation: 1s slidefade 0.6s forwards;
+	min-width: 50vw;
+	border-radius: 15px;
+}
+.landing-serijat{
+	border-top: 2px solid black;
+	transform: translateY(25px);
+}
+@media screen and (max-width: 790px){
+    .landing-body {
+		text-align: center;
+	}
+	.landing-content{
+		/* transform: translateX(-55px); */
+		min-width: 725px;
+	}
+	.landing-content .landing-atmosfera{
+		font-size: 1.7rem;
+	}
+	.landing-content .landing-p{
+		font-size: 1.5rem;
+	}
+	.landing-content .landing-serijat{
+		font-size: 1.5rem;
+	}
+}
+@media screen and (max-width: 645px){
+	.landing-content{
+		transform: translateX(-35px);
+		min-width: 725px;
+	}
+}
+@media screen and (max-width: 615px){
+	.landing-content{
+		transform: translateX(-50px);
+		min-width: 725px;
+	}
+}
+
+@keyframes slidefade {
+	100% {
+		margin-left: 5rem;
+		margin-top: 5rem;
+		opacity: 1;
+	}
+}
+
+.landing-content h1 {
+	color: rgba(0, 0, 0, 0.596);
+	font-size: 2rem;
+	padding: 0;
+	margin: 0;
+	letter-spacing: -2px;
+}
+.landing-content p {
+	color: rgba(0, 0, 0, 0.678);
+	font-size: 1.7rem;
+	padding: 0;
+	margin: 0;
+	letter-spacing: -2px;
+}
+
+.icons {
+	margin: 1rem 0 0 -0.8rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.icons p {
+	padding: 1rem 1rem;
+}
+
+.icons div{
+	background-image: url(./cupping-icon.png);
+	margin-right: -10px;
+	width: 50px;
+	height: 25px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	opacity: 0.8;
+}

@@ -1,0 +1,54 @@
+.InputForm{
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    animation: slidefadeInputForm 0.3s ease-in forwards;
+}
+@keyframes slidefadeInputForm {
+	100% {
+		opacity: 1;
+	}
+}
+.InputForm.Card1{
+    margin-top: 1rem;
+    /* margin-bottom: -1rem; */
+    width: 27rem;
+    color: rgba(0, 0, 0, 0.596);
+}
+
+.InputForm h4{
+    margin: 0.3rem;
+}
+.InputForm-input{
+    /* box-shadow: inset 0px 0px 24px 8px rgba(0,0,0,0.35); */
+    background-color: rgba(90, 90, 90, 0.219);
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    width: 60%;
+    text-align: center;
+}
+.InputForm-input:focus{
+    background-color: rgba(90, 90, 90, 0.219);
+}
+
+
+.InputForm-button{
+    border: none;
+	background-color:#61b674;
+	border-radius: 0px 0px 7px 7px;
+	height: 25px;
+	color: white;
+	text-decoration: uppercase;
+	outline: none;
+    width: 11rem;
+    height: 1rem;
+}
+.InputForm-button:hover{
+    background-color: #34a55f;
+}
+.InputForm-button:active{
+    background-color: #61b674;
+}

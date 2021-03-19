@@ -1,0 +1,55 @@
+{
+  "name": "hidzama-project",
+  "version": "0.1.0",
+  "proxy": "http://localhost:3001/api/",
+  "private": true,
+  "dependencies": {
+    "@react-google-maps/api": "^2.1.1",
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.5",
+    "@testing-library/user-event": "^12.7.1",
+    "alertifyjs": "^1.13.1",
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "emailjs-com": "^2.6.4",
+    "express": "^4.17.1",
+    "input-core": "^2.1.0",
+    "mongoose": "^5.11.18",
+    "nodemon": "^2.0.7",
+    "react": "^17.0.1",
+    "react-datepicker": "^3.6.0",
+    "react-dom": "^17.0.1",
+    "react-maskinput": "^3.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.2",
+    "uuid": "^8.3.2",
+    "web-vitals": "^1.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-syntax-jsx": "^7.12.13"
+  }
+}

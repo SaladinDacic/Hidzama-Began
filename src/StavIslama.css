@@ -1,0 +1,116 @@
+.StavIslama-parent-container {
+	display: flex;
+	width: 70vw;
+	justify-content: center;
+	align-items: center;
+	margin-inline: auto;
+}
+
+.StavIslama-container {
+	margin-top: 5rem;
+	padding: 5rem;
+	/* border: 9px double rgb(94, 85, 76); */
+	border-radius: 11px 40px 0px 40px;
+    overflow-y: auto;
+	height: 25rem;
+	text-align: justify;
+	line-height: 1.5rem;
+	/* text-shadow: 0 0 3px #FFFFFF; */
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	color: rgba(0, 0, 0, 0.596);
+	background-color: rgba(94, 85, 76, 0.473);
+    box-shadow: inset 0px 0px 24px 8px rgba(0,0,0,0.35), 0px 13px 31px 9px rgba(0,0,0,0.25);
+    background-color: rgba(190, 197, 164, 0.418);
+	/* margin: 0 6px; */
+	/* border-radius: 5px; */
+	opacity: 0;
+	transition: transform 0.15s 0s ease-in;
+	animation: 2s slidefadeStavIslama 0.7s forwards;
+	/* overflow-y: auto; */
+}
+@keyframes slidefadeStavIslama {
+	100% {
+		opacity: 1;
+	}
+}
+
+.StavIslama-content-part {
+	min-width: 55%;
+
+}
+
+.StavIslama-list-container{
+    padding: 0rem 5rem;
+	min-width: 25%;
+	height: 33rem;
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+@media screen and (max-width: 1380px){
+    .StavIslama-parent-container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .StavIslama-content-part {
+        min-width:67vw;
+        transform: translate(1rem, -3.5rem);
+    
+    }
+    .StavIslama-list-container{
+        padding: 1rem 0rem;
+        min-width:80vw;
+        height: 12vh;
+        line-height: 0.9rem;
+    }
+    .StavIslama-list-part {
+        min-width: 70%;
+    }
+    .StavIslama-list-part h4{
+        margin: 0.6rem 0;
+    }
+}
+
+.StavIslama-list-part {
+    height: 90%;
+    padding: 0 1rem;
+
+    width: 20vw;
+    text-align: left;
+}
+.StavIslama-list-part h4{
+    padding: 0;
+    cursor: pointer;
+}
+.StavIslama-list-part h4:hover{
+    color: rgb(13, 102, 114);
+}
+
+
+
+
+
+
+
+::-webkit-scrollbar {
+    width: 10px;
+    }
+    
+    ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+    background:rgba(0, 0, 0, 0.384);; 
+    border-radius: 10px;
+    height: 3rem;
+    }
+    
+    ::-webkit-scrollbar-thumb:hover {
+    background:rgb(54, 56, 58); }

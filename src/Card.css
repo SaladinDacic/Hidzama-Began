@@ -1,0 +1,80 @@
+.Card-body {
+	width: 25vw;
+	min-width: 23rem;
+	height: 20.5rem;
+	background-color: rgba(190, 197, 164, 0.418);
+	margin: 0 6px;
+	border-radius: 5px;
+	opacity: 0;
+	transition: transform 0.15s 0s ease-in;
+	animation: 2s slidefadeCard 0.7s forwards;
+	box-shadow: inset 0px 0px 24px 8px rgba(0,0,0,0.35), 0px 13px 31px 9px rgba(0,0,0,0.25);
+
+}
+.fa-quote-left{
+	color:#34442e;
+	font-size: 2rem;
+	display: flex;
+	margin: -1rem 0 0 -1rem
+}
+@media screen and (max-width: 1170px){
+    .Card-body{
+		align-self: center;
+		width: 70vw;
+		height: 18rem;;
+	}
+}
+@media screen and (max-width: 650px){
+    .Card-body{
+		min-width: 27rem;
+	}
+}
+@keyframes slidefadeCard {
+	100% {
+		opacity: 1;
+	}
+}
+.Card-body.show{
+	opacity: 0.7 !important;
+
+}
+
+.focus {
+	/* position:static; */
+	transform: scaleY(1.05);
+	background-color: rgba(195, 199, 179, 0.418);
+}
+
+.Card-content .content {
+	display: flex;
+	flex-direction: column;
+	padding: 1rem 2rem;
+	color: rgba(0, 0, 0, 0.596);
+	letter-spacing: -0.7px;
+}
+
+.Card-content .content button {
+	border: none;
+	background-color: #5ba74c93;
+	border-radius: 0px 0px 7px 7px;
+	height: 25px;
+	color: white;
+	text-decoration: uppercase;
+	outline: none;
+}
+.Card-content .content button:hover {
+	background-color: #3d773398;
+}
+.Card-content .content button:active {
+	background-color: #28502198;
+}
+
+.wk-body {
+	margin-bottom: 2rem;
+}
+.work-time {
+	display: flex;
+}
+.wk-title {
+	font-weight: bolder;
+}

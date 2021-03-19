@@ -1,0 +1,37 @@
+.Card2-body{
+    width: 90%;
+    margin: auto;
+    margin-top: 0;
+}
+
+.Card2-content{
+    margin-top:0rem;
+    display: flex;
+	flex-direction: column;
+	color: rgba(0, 0, 0, 0.596);
+	letter-spacing: -0.7px;
+}
+
+.Card2-content h3{
+    margin-top:0rem;
+}
+
+.Card2-content p{
+    margin-top: 1rem;
+}
+
+.Card2--dorada-description{
+    margin-top: -1.2rem ;
+    line-height: 0.9rem;
+    font-size: 0.9rem;
+}
+.Card2--dorada-description p{
+    margin: 0.5rem 0 0 0;
+}
+
+@media screen and (max-width: 720px){
+
+	.Card2--dorada-description p{
+        margin: 0.5rem;
+    }
+}

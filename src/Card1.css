@@ -1,0 +1,38 @@
+.Card1-InputForm-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+}
+
+
+
+
+.Card1-content{
+    margin-top:1rem;
+    display: flex;
+	flex-direction: column;
+	color: rgba(0, 0, 0, 0.596);
+	letter-spacing: -0.7px;
+}
+.Card1-content p{
+    padding: 0;
+    margin: 0;
+}
+
+.Card1-description{
+    opacity: 0;
+    font-size: 0.4rem;
+    animation: slidefadeCard1 ease-in 0.3s forwards;
+}
+
+@keyframes slidefadeCard1 {
+    50%{
+        font-size: 0.7rem;
+    }
+	100% {
+        font-size: 1rem;
+		opacity: 1;
+	}
+}

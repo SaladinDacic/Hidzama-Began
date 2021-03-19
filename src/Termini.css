@@ -1,0 +1,66 @@
+/* .termini{
+    width: 30vw;
+	height: 45vh;
+	background-color: rgba(130, 150, 212, 0.562);
+	margin: 0 3px;
+	border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    color: rgba(0, 0, 0, 0.596);
+    letter-spacing: -0.7px;
+    transform: translateY(-35px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -5rem;
+}
+.focus {
+	background-color: rgba(181, 195, 241, 0.534);
+}*/
+
+.termini-button{
+    width: 70%;
+    border: none;
+    background-color: #5ba74c6b;
+    border-radius: 0px 0px 7px 7px;
+    margin: 1px;
+    height: 15px;
+    color: white;
+    text-decoration: uppercase;
+    outline: none;
+    position: relative;
+    z-index: 50;
+}
+.termini-button:disabled{
+    background-color: #b36262;
+    cursor: not-allowed;
+}
+.termini-button:disabled:hover{
+    background-color: #a1635f;
+    cursor: not-allowed;
+}
+.termini-button.disabledRequest:disabled{
+    background-color: #cc913e7e;
+    cursor: not-allowed;
+}
+.termini-button.disabledRequest:disabled:hover{
+    background-color: #cc913e7e;
+    cursor: not-allowed;
+}
+.termini-button:hover{
+    background-color: #3d773398;
+}
+.termini-button:active{
+    background-color: #28502198;
+}
+/*
+.termini .termini-nazad{
+    background-color:#607dda;
+    border-radius: 7px;
+    border: 2px solid #3d5fcc;
+    text-align: center;
+    color: white;
+    height: 2rem;
+    padding: 0px;
+
+} */

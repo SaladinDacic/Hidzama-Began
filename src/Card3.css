@@ -1,0 +1,61 @@
+.Card3-container {
+	display: flex;
+    flex-direction: column;
+	/* justify-content: space-evenly; */
+	/* align-items: center; */
+    height: 100%;
+}
+
+.Card3-quote {
+    margin: auto;
+	text-align: center;
+	min-height: 7rem;
+	height: 7rem;
+	width: 95%;
+	max-width: 95%;
+}
+
+.Card3-iskustva-container {
+	margin-top: 3rem;
+	display: flex;
+    flex-direction: column;
+}
+
+.Card3-iskustva{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Card3-dots{
+    margin: -0.5rem 0 1rem 0;
+    transform: scale(0.8);
+}
+
+.Card3-dots i{
+    margin: 0 1.5px;
+    color: #8cb679c2;
+}
+.Card3-dots i.chosenOne{
+    color: #516947;
+}
+
+@media screen and (max-width: 1170px) {
+	.Card3-quote {
+		min-height: 6rem;
+		height: 6rem;
+		width: 80%;
+	}
+    .Card3-iskustva-container {
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 685px) {
+	.Card3-quote {
+		min-height: 7rem;
+		height: 7rem;
+		max-width: 100%;
+		width: 100%;
+	}
+}
