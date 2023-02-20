@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Hidzama-Began/static/css/main.4b5acc15.css",
-    "main.js": "/Hidzama-Began/static/js/main.e4264400.js",
+    "main.js": "/Hidzama-Began/static/js/main.3a30e668.js",
     "static/js/787.b4435437.chunk.js": "/Hidzama-Began/static/js/787.b4435437.chunk.js",
     "static/media/hidzama1.jpg": "/Hidzama-Began/static/media/hidzama1.0318af48e51e9a5cfd24.jpg",
     "index.html": "/Hidzama-Began/index.html",
     "main.4b5acc15.css.map": "/Hidzama-Began/static/css/main.4b5acc15.css.map",
-    "main.e4264400.js.map": "/Hidzama-Began/static/js/main.e4264400.js.map",
+    "main.3a30e668.js.map": "/Hidzama-Began/static/js/main.3a30e668.js.map",
     "787.b4435437.chunk.js.map": "/Hidzama-Began/static/js/787.b4435437.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4b5acc15.css",
-    "static/js/main.e4264400.js"
+    "static/js/main.3a30e668.js"
   ]
 }
